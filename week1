@@ -28,3 +28,24 @@ output :
 "x is : 2"
 "x is : 1"
 
+IIFE
+(function () {return "hello" }() ) // declare and invoke
+
+
+/* Regular function declaration */
+/* function add(x, y)
+{
+  return x + y;
+}
+ */
+ 
+/* Named variable declaration */
+/* let add = function(x, y)
+{
+  return x + y;
+} */
+
+/* Arrow function declaration */
+let add = (x, y) => x + y;
+
+console.log(add(12, 5));
