@@ -57,6 +57,6 @@ console.log(add(12, 5));
 }
 console.log(x);
 `
-- this gives Reference Error
+	this gives Reference Error
 
 
