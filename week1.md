@@ -22,13 +22,13 @@ console.log(x is : ${x});`
 	let x=2;
 	console.log(x is : ${x});
 }
-console.log(\`x is : ${x}\`);`
+console.log(x is : ${x});`
 
   - output :
   - "x is : 2"
   - "x is : 1"
 
-* IIFE => (function () {return "hello" }() ) // declare and invoke
+* IIFE => (function () {return "hello" }() ) => declare and invoke
 
 * Regular function declaration
 `function add(x, y)
@@ -52,4 +52,8 @@ console.log(\`x is : ${x}\`);`
 console.log(x);
 `
 
-
+* All are valid function definitions
+  - `const sum = (x, y) => {return x+y}`
+  - `const sum = (x, y) => x+y`
+  - `const sqr = x => {return x*x}`
+  - `const sqr = x => x*x`
