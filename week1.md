@@ -14,23 +14,21 @@
 }
 console.log(x is : ${x});`
 
-the code gives error :
-"<a class='gotoLine' href='#45:0'>45:0</a> SyntaxError: Cannot declare a var variable that shadows a let/const/class variable: 'x'."
+  - the code gives error :
+  - "<a class='gotoLine' href='#45:0'>45:0</a> SyntaxError: Cannot declare a var variable that shadows a let/const/class variable: 'x'."
 
 * `var x=1;
 {
 	let x=2;
-	console.log(`x is : ${x}`);
+	console.log(x is : ${x});
 }
 console.log(\`x is : ${x}\`);`
 
-output :
-"x is : 2"
-"x is : 1"
+  - output :
+  - "x is : 2"
+  - "x is : 1"
 
-* IIFE
-(function () {return "hello" }() ) // declare and invoke
-
+* IIFE => (function () {return "hello" }() ) // declare and invoke
 
 * Regular function declaration
 `function add(x, y)
@@ -39,19 +37,19 @@ output :
 }`
  
 * Named variable declaration
-/* let add = function(x, y)
+`let add = function(x, y)
 {
   return x + y;
-} */
+}`
 
 * Arrow function declaration
 `let add = (x, y) => x + y;`
 
-* `{
+* this gives Reference Error
+`{
 	let x=5;
 }
 console.log(x);
 `
-this gives Reference Error
 
 
