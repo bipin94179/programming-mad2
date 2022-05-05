@@ -1,6 +1,6 @@
-`console.log(3+'4') = "34"` 
-`console.log('3'+4) = "34"` 
-`console.log('3'*'4') = 12` 
+`console.log(3+'4') = "34" `
+`console.log('3'+4) = "34" ` 
+`console.log('3'*'4') = 12 ` 
 
 ### this implicit conversion is called coercion
 
@@ -52,7 +52,7 @@ let add = (x, y) => x + y;
 
 console.log(add(12, 5));
 
-*`{
+* `{
 	let x=5;
 }
 console.log(x);
