@@ -52,11 +52,11 @@ let add = (x, y) => x + y;
 
 console.log(add(12, 5));
 
-* `{
+* - `{
 	let x=5;
 }
 console.log(x);
 `
-this gives Reference Error
+- this gives Reference Error
 
 
