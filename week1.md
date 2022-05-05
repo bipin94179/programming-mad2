@@ -1,8 +1,8 @@
-console.log(3+'4') = "34"
-console.log('3'+4) = "34"
-console.log('3'*'4') = 12
+`console.log(3+'4') = "34"`
+`console.log('3'+4) = "34"`
+`console.log('3'*'4') = 12`
 
-this implicit conversion is called coercion
+###this implicit conversion is called coercion
 
 let follows block scope
 var does not follow block scope
