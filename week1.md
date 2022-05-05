@@ -7,12 +7,14 @@
 let follows block scope
 var does not follow block scope
 
-`let x=1;
+`
+let x=1;
 {
 	var x=2;
 	console.log(`x is : ${x}`);
 }
-console.log('x is : '${x});`
+console.log(x is : ${x});
+`
 
 the code gives error :
 "<a class='gotoLine' href='#45:0'>45:0</a> SyntaxError: Cannot declare a var variable that shadows a let/const/class variable: 'x'."
@@ -49,3 +51,12 @@ IIFE
 let add = (x, y) => x + y;
 
 console.log(add(12, 5));
+
+*`{
+	let x=5;
+}
+console.log(x);
+`
+this gives Reference Error
+
+
